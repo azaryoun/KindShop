@@ -1,0 +1,1 @@
+{"version":3,"sources":["models/JWT.ts"],"names":["JWT","accessToken","this"],"mappings":"mIAAAA,IAAA,WACI,QAAAA,KAAmBC,aAAAC,KAAAD,YAAAA,YACvB,MAAAD","file":"JWT.js","sourcesContent":["export class JWT {\r\n    constructor(public accessToken: string) { }\r\n}"]}

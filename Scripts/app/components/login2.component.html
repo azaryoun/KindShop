@@ -1,0 +1,45 @@
+﻿<div class="container">
+    <h1>Login Form</h1>
+    <form [formGroup]="form" (ngSubmit)="login()">
+        <div class="form-group">
+
+            <md-input-container class="example-full-width">
+                <input mdInput placeholder="Username" mdTooltip="Enter your username of email" mdTooltipPosition="above" id="username" type="text" formControlName="username">
+                <md-error>
+                    Username is required
+                </md-error>
+
+            </md-input-container>
+
+
+        </div>
+        <div class="form-group">
+
+
+            <md-input-container class="example-full-width">
+                <input mdInput mdTooltip="Enter your password" mdTooltipPosition="below" placeholder="Password" id="password" type="password" formControlName="password">
+                <md-error *ngIf="form.controls.password.hasError('required')">
+                    Password is required.
+
+                </md-error>
+
+                <md-error *ngIf="form.controls.password.hasError('cannotContainSpace')">
+                    Password cannot contain space.
+                </md-error>
+
+
+            </md-input-container>
+
+
+        </div>
+        <button  mdTooltipPosition="after" mdTooltip="Log in to system!" md-mini-fab type="submit" [disabled]="!form.valid"><md-icon>done</md-icon></button>
+
+        <md-error *ngIf="form.hasError('invalidLogin')">
+            Username or password is invalid.
+        </md-error>
+
+
+    </form>
+
+</div>
+

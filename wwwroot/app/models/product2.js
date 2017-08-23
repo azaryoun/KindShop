@@ -1,0 +1,2 @@
+System.register([],function(exports_1,context_1){"use strict";var Product2;context_1&&context_1.id;return{setters:[],execute:function(){Product2=function(){function Product2(imageUrl,productName,releasedDate,description,rating,numOfReviews){this.imageUrl=imageUrl,this.productName=productName,this.releasedDate=releasedDate,this.description=description,this.rating=rating,this.numOfReviews=numOfReviews}return Product2}(),exports_1("Product2",Product2)}}});
+//# sourceMappingURL=product2.js.map

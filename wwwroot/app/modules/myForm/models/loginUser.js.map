@@ -1,0 +1,1 @@
+{"version":3,"sources":["modules/myForm/models/loginUser.ts"],"names":["LoginUser","userName","password","this"],"mappings":"yIAAAA,UAAA,WACI,QAAAA,WAAmBC,SAAyBC,UAAzBC,KAAAF,SAAAA,SAAyBE,KAAAD,SAAAA,SAChD,MAAAF","file":"loginUser.js","sourcesContent":["export class LoginUser {\r\n    constructor(public userName: string, public password: string) { }\r\n} "]}
