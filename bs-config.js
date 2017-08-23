@@ -1,4 +1,4 @@
 module.exports = {
-  "port": 8123,
+  "port": 85000,
   "server": { "baseDir": "./wwwroot" }
 };
