@@ -1,0 +1,202 @@
+﻿@font-face {
+	font-family: 'webArian';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	src: url('../fonts/iranSans.ttf'); 
+}
+
+
+
+
+body{
+   font-family: 'webArian';
+   direction:rtl;
+   font-size: 15px;
+}
+
+b.caret {
+    margin-left:initial;
+    margin-right: 0.5em;
+}
+
+  .navbar-right {
+    float: left !important;
+    margin-right: -15px;
+  }
+
+  .navbar-nav {
+    float: right;
+
+}
+
+.top-header p, .top-header h2 {
+  
+    font-family: inherit;
+}
+
+.cd-header-buttons {
+   
+    left: 15%;
+    right: initial;
+}
+
+.header-right {
+    float: left;
+    text-align: center;
+}
+
+.header-right.cart {
+    margin-left: 2em;
+    padding-left: 2em;
+    border-left: 1px solid #ECECEC;
+    margin-right: initial;
+    padding-right: initial;
+    border-right: initial;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+   
+    font-family: inherit;
+}
+
+span.tag {
+   
+    font-family: 'webArian';
+  
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: right;
+}
+
+.dropdown-menu {
+ 
+    text-align: right;
+}
+
+
+.row h4 {
+    font-family: inherit;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: right;
+}
+
+ul.multi-column-dropdown:nth-child(3) {
+    border-left: 1px solid #D6D3D3;
+    border-right: initial;
+}
+
+
+.header-right.cart {
+     margin-left: initial;
+    
+}
+
+.new-grid:hover .new-text {
+    right: 10%;
+    left: initial;
+}
+
+.new-text {
+ 
+    right: -100%;
+ left: initial;
+}
+
+.new-grid.new-mdl1 {
+    margin-left: 1.5em;
+    margin-right: initial;
+}
+
+.new-bottom h5 {
+    font-size: 1.5em;
+    font-weight: 900;
+  
+}
+
+
+
+
+.ofr p {
+    font-size: 1em;
+ 
+}
+
+
+
+.new-text ul li a {
+  
+    font-size: .8em;
+  
+}
+
+.item_price_del {
+    color: #999;
+    margin-right: 5px;
+    font-weight: 400;
+}
+
+
+.gallery-text h4.sizes {
+    font-size: 1.2em;
+   
+}
+
+.trend-slider h5 {
+ 
+    font-family: inherit;
+}
+
+.trend-slider h4 {
+  
+     font-family: inherit;
+   
+}
+
+.trend-slider h4 {
+    font-size: 2.5em;
+   
+}
+
+.trend-slider h5 {
+    font-size: 2.5em;
+
+    font-family: inherit;
+}
+
+
+.trend-info {
+
+    padding: 4em 3em 3em 12em;
+
+}
+
+.flexslider.trend-slider ol.flex-control-nav {
+    right: auto;
+    left: -11%;
+
+}
+
+.new-add h5 {
+    font-family: inherit;
+   
+}
+
+.new-add2 h6 {
+  font-family: inherit;
+    
+}
+.flexslider .slides img {
+ 
+    margin-left: initial;
+    margin-right: 25em;
+}
+
+.banner-right ul li h4 {
+    left: initial;
+    right: 27%;
+}
